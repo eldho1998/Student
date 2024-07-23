@@ -1,0 +1,54 @@
+.list {
+  width: 1300px;
+  margin: 10px auto;
+  min-height: 500px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.student-list-main h2 {
+  margin: 30px auto;
+  text-align: center;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+.cards {
+  border: 1px solid rgb(235, 227, 227);
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  margin: 10px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px 10px rgba(240, 234, 234, 0.842);
+  border-radius: 10px;
+}
+.cards .name,
+.age,
+.dob,
+.course {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.student-list-main .pagination {
+  margin-left: 550px;
+  margin-bottom: 100px;
+}
+.student-list-main .list h4,
+p {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+.student-list-main .search Input {
+  width: 500px;
+  margin-left: 420px;
+}
+.search {
+  display: flex;
+  gap: 10px;
+}

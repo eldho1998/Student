@@ -1,0 +1,40 @@
+.details h1 {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.details h4,
+label {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+.details {
+  height: 400px;
+}
+.detailed-card {
+  border: 1px solid lightgray;
+  width: 650px;
+  height: 200px;
+  margin: 1px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.details .detailed-card .Studentt {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Studentt .namee,
+.agee,
+.dobb,
+.coursee {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+}

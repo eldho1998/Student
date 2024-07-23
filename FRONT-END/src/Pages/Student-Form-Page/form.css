@@ -1,0 +1,39 @@
+.form {
+  min-height: 400px;
+  width: 600px;
+  padding: 20px;
+  margin: 50px auto;
+  border: 1px solid rgb(231, 224, 224);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 0 10px 10px rgb(231, 224, 224);
+}
+
+.form input {
+  height: 30px;
+  width: 550px;
+  border-radius: 5px;
+  border: 1px solid rgb(231, 224, 224);
+}
+
+.id,
+.name,
+.age,
+.dob,
+.course {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.form label {
+  font-family: 'Mona Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: small;
+}
+.form button {
+  width: fit-content;
+  margin: auto;
+}

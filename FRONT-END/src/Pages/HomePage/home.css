@@ -1,0 +1,22 @@
+.home-main {
+  position: relative;
+}
+
+.home-text {
+  position: absolute;
+  bottom: 650px;
+  left: 100px;
+}
+.home-text h1 {
+  color: rgb(229 9 20);
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-size: 100px;
+}
+.home-main,
+.p1 p {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-size: 30px;
+  color: black;
+}
